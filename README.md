@@ -1,1 +1,1 @@
-# Roksana version 1.1
+# Roksana version 1.2

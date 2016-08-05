@@ -1,5 +1,5 @@
 <h1>Roxana version 1.2 </h1>
-<p>it build with cass for more customize a use gulp for compile and minify</p>
+<p>it build with SCSS for more customize a use GULP for compile and minify</p>
  <a href="https://roxana.webineh.net">Read more about Roxana css framwork</a>
  
 <p>you can use free and simple Roxana CSS framwork . this build for Grid system and same elements in Material Design mode.</p>

@@ -1,14 +1,14 @@
 {
-  "name": "Roksana",
-  "version": "1.0.0",
-  "description": "light weight css framework",
+  "name": "Roxana",
+  "version": "1.0.1",
+  "description": "lightweight css framework",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
     "repository": {
     "type": "git",
-    "url": "https://github.com/vahidalvandi/roksana"
+    "url": "https://github.com/vahidalvandi/roxana"
   },
   "keywords": [
     "css",

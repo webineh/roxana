@@ -1,5 +1,5 @@
 # Roxana version 1.2 
- <a href="https://vahidalvandi.github.io/roxana/">information and about</a>
+ <a href="https://roxana.webineh.net">Read more about Roxana css framwork</a>
  
 <p>you can use free and simple Roxana CSS framwork . this build for Grid system and same elements in Material Design mode.</p>
 <p>it Support LTR and RTL languages for persian , arabic ,...</p>

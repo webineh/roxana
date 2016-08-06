@@ -1,6 +1,6 @@
 {
   "name": "Roxana",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "lightweight css framework",
   "main": "index.js",
   "scripts": {

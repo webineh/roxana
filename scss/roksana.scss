@@ -1,4 +1,4 @@
-// Roksana v1.2
+// Roxana v1.0.3
 // By Vahid alvandi (@vahidalvandi)
 // Licensed under the MIT license, 2016
 // Documentation: https://github.com/vahidalvandi/roxana
@@ -15,7 +15,7 @@ $large:             68.750em; // Small desktop to large desktop
 
 // Example padding for grid
 // Doesn't actually need to be kept in.
-$wbi-padding:       0.3em;
+$rox-padding:       0.3em;
 
 // Grid widths
 // ----------------------------------------------
@@ -27,7 +27,7 @@ $end:               12;
 // Commons widths
 // ----------------------------------------------
 // A list that contains common percentage widths
-// as column classes e.g wbi-60, wbi-40, wbi-75
+// as column classes e.g rox-60, rox-40, rox-75
 // customise this list as you require
 $common: 25, 40, 60, 75;
 
@@ -48,13 +48,13 @@ $container: 100,90,80,70,60;
  
 .rtl{
 	direction:rtl;
-		[class*='wbi-'] {
+		[class*='rox-'] {
 		 float: right;
 	}
 }
 .ltr{
 	direction:ltr;
-	[class*='wbi-'] {
+	[class*='rox-'] {
 		 float: left;
 	}
 }
@@ -79,7 +79,7 @@ $container: 100,90,80,70,60;
 }
 
 //helpers
-.align-center {text-align:center}
+ .align-center {text-align:center}
 .align-left {text-align:left}
 .align-right {text-align:right}
 .float-left {float:left}
@@ -87,45 +87,81 @@ $container: 100,90,80,70,60;
 .img-responsive {max-width: 100%; margin: 0 auto;}
 .img-circle {border-radius: 50%}
 
+
+	
 //button
 .btn {
-	-webkit-box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
-	-moz-box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
-	box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
-	color:#fff;
-	margin-top:5px;
-	border-radius:1px;
-	-moz-border-radius:1px;
-	-webkit-border-radius:1px;
-	text-decoration: none;
-	border:none;
-	font-size:14px;
-	height:36px;
- 
-	padding:5px;
+  padding-top:5px;
+  padding-bottom:5px;
+  border-radius:4px;
+  border:1px solid;
+  margin-top:20px;
+  margin-bottom:20px;
+  margin-left:16px;
+  font-size:1em;
+  font-family:'tahoma'
 }
+
 //button colors
 .btn-red{
 background-color:#e71a4f;
+  color:white;
 }
 .btn-blue{
-background-color:#08a5ff; 
+background-color:#2196f3; 
+  color:white;
+}
+.btn-blue:hover{
+  background:#1a8de8; 
+   cursor: pointer;
 }
 .btn-green{
 background-color:#8cc015; 
-
+  color:white;
+}
+.btn-small{
+	  width:125px;
 }
 
+//textbox
+
+.textbox{
+  background:#ecf0f1;
+  border: #ccc 1px solid;
+  border-bottom: #ccc 2px solid;
+  padding: 8px;
+  margin-top:10px;
+  color:#AAAAAA;
+  font-size:1em;
+
+  border-radius:4px;
+}
+//alink
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
 // Attribute selector
 // Also I've removed :last-of-type
-[class*='wbi-'] {
+[class*='rox-'] {
 
-    padding: $wbi-padding;
+    padding: $rox-padding;
 }
 
 // Create grid widths (1-12)
 @for $i from $start through $end {
-    .wbi-#{$i} {
+    .rox-#{$i} {
         width: $full / $i;
     }
 }
@@ -134,7 +170,7 @@ background-color:#8cc015;
 // Please use the media queries below to respond these widths
 // Feel free to pull request new widths
 @each $i in $common {
-    .wbi-#{$i} {
+    .rox-#{$i} {
         width: percentage($i / 100);
     }
 }
@@ -148,7 +184,7 @@ background-color:#8cc015;
 // Mobile
 @media (max-width: $small) {
     @for $i from $start through $end {
-        .wbi-#{$i} {
+        .rox-#{$i} {
             width: $full
         }
     }
@@ -156,38 +192,38 @@ background-color:#8cc015;
 
 // Portrait Tablet
 @media (min-width: $small) and (max-width: $medium) {
-    .wbi-4,
-    .wbi-5,
-    .wbi-6,
-    .wbi-8,
-    .wbi-10,
-    .wbi-12 {
+    .rox-4,
+    .rox-5,
+    .rox-6,
+    .rox-8,
+    .rox-10,
+    .rox-12 {
         width: $half;
     }
 
-    .wbi-1,
-    .wbi-2,
-    .wbi-3,
-    .wbi-5,
-    .wbi-7,
-    .wbi-9,
-    .wbi-11 {
+    .rox-1,
+    .rox-2,
+    .rox-3,
+    .rox-5,
+    .rox-7,
+    .rox-9,
+    .rox-11 {
         width: $full;
     }
 }
 
 // Landscape Tablet
 @media (min-width: $medium) and (max-width: $large) {
-    .wbi-2,
-    .wbi-7 {
+    .rox-2,
+    .rox-7 {
         width: $full;
     }
 
-    .wbi-4,
-    .wbi-5,
-    .wbi-8,
-    .wbi-10,
-    .wbi-12 {
+    .rox-4,
+    .rox-5,
+    .rox-8,
+    .rox-10,
+    .rox-12 {
         width: $half;
     }
 }

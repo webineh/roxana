@@ -1,0 +1,25 @@
+//
+// Grid
+// --------------------------------------------------
+
+// Attribute selector
+// Also I've removed :last-of-type
+[class*='wbi-'] {
+    padding: $wbi-padding;
+}
+
+// Create grid widths (1-12)
+@for $i from $start through $end {
+    .wbi-#{$i} {
+        width: $full / $i;
+    }
+}
+
+// Common widths
+// Please use the media queries below to respond these widths
+// Feel free to pull request new widths
+@each $i in $common {
+    .wbi-#{$i} {
+        width: percentage($i / 100);
+    }
+}

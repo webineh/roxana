@@ -1,0 +1,52 @@
+//
+// Responsiveness
+// Feel free to use your own responsive widths and styles for the grid
+// These are mostly for example use only.
+// --------------------------------------------------
+
+// Mobile
+@media (max-width: $small) {
+    @for $i from $start through $end {
+        .wbi-#{$i} {
+            width: $full
+        }
+    }
+}
+
+// Portrait Tablet
+@media (min-width: $small) and (max-width: $medium) {
+    .wbi-4,
+    .wbi-5,
+    .wbi-6,
+    .wbi-8,
+    .wbi-10,
+    .wbi-12 {
+        width: $half;
+    }
+
+    .wbi-1,
+    .wbi-2,
+    .wbi-3,
+    .wbi-5,
+    .wbi-7,
+    .wbi-9,
+    .wbi-11 {
+        width: $full;
+    }
+}
+
+// Landscape Tablet
+@media (min-width: $medium) and (max-width: $large) {
+    .wbi-2,
+    .wbi-7 {
+        width: $full;
+    }
+
+    .wbi-4,
+    .wbi-5,
+    .wbi-8,
+    .wbi-10,
+    .wbi-12 {
+        width: $half;
+    }
+}

@@ -1,0 +1,30 @@
+//
+// Button
+// --------------------------------------------------
+
+.btn {
+	-webkit-box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+	-moz-box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+	box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+	color:#fff;
+	margin-top:5px;
+	border-radius:1px;
+	-moz-border-radius:1px;
+	-webkit-border-radius:1px;
+	text-decoration: none;
+	border:none;
+	font-size:14px;
+	height:36px;
+ 
+	padding:5px;
+}
+//button colors
+.btn-red{
+background-color:#e71a4f;
+}
+.btn-blue{
+background-color:#08a5ff;
+}
+.btn-green{
+background-color:#8cc015;
+}

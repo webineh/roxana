@@ -1,0 +1,33 @@
+//
+// Reset
+// Optional hard reset
+// --------------------------------------------------
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+.rtl{
+	direction:rtl;
+		[class*='wbi-'] {
+		 float: right;
+	}
+}
+.ltr{
+	direction:ltr;
+	[class*='wbi-'] {
+		 float: left;
+	}
+}
+// clearfix
+.row {
+    margin: 0 auto;
+    max-width: $row-width;
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}

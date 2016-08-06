@@ -1,0 +1,10 @@
+//
+// Container
+// --------------------------------------------------
+
+@each $i in $container {
+    .container-#{$i} {
+         max-width: percentage($i / 100);
+		  margin: 0 auto;
+    }
+}

@@ -14,7 +14,7 @@ $large:             68.750em; // Small desktop to large desktop
 
 // Example padding for grid
 // Doesn't actually need to be kept in.
-$wbi-padding:       0.3em;
+$rox-padding:       0.3em;
 
 // Grid widths
 // ----------------------------------------------
@@ -26,7 +26,7 @@ $end:               12;
 // Commons widths
 // ----------------------------------------------
 // A list that contains common percentage widths
-// as column classes e.g wbi-60, wbi-40, wbi-75
+// as column classes e.g rox-60, rox-40, rox-75
 // customise this list as you require
 $common: 25, 40, 60, 75;
 

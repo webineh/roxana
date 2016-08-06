@@ -1,0 +1,52 @@
+//
+// Responsiveness
+// Feel free to use your own responsive widths and styles for the grid
+// These are mostly for example use only.
+// --------------------------------------------------
+
+// Mobile
+@media (max-width: $small) {
+    @for $i from $start through $end {
+        .rox-#{$i} {
+            width: $full
+        }
+    }
+}
+
+// Portrait Tablet
+@media (min-width: $small) and (max-width: $medium) {
+    .rox-4,
+    .rox-5,
+    .rox-6,
+    .rox-8,
+    .rox-10,
+    .rox-12 {
+        width: $half;
+    }
+
+    .rox-1,
+    .rox-2,
+    .rox-3,
+    .rox-5,
+    .rox-7,
+    .rox-9,
+    .rox-11 {
+        width: $full;
+    }
+}
+
+// Landscape Tablet
+@media (min-width: $medium) and (max-width: $large) {
+    .rox-2,
+    .rox-7 {
+        width: $full;
+    }
+
+    .rox-4,
+    .rox-5,
+    .rox-8,
+    .rox-10,
+    .rox-12 {
+        width: $half;
+    }
+}

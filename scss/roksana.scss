@@ -3,6 +3,7 @@
 // Licensed under the MIT license, 2016
 // Documentation: https://github.com/vahidalvandi/roxana
 
+<<<<<<< HEAD
 // Helpers
 $full:              100%;
 $half:              100% / 2;
@@ -174,9 +175,29 @@ a:active {
         width: percentage($i / 100);
     }
 }
+=======
+// Core variables
+@import 'variables';
 
+// Start the grid.
+// Reset
+@import 'reset';
+
+// Container
+@import 'container';
+
+// Helpers
+@import 'helpers';
+
+// Button
+@import 'button';
+>>>>>>> refs/remotes/origin/pr/4
+
+// Grid and layout
+@import 'grid';
 
 // Responsiveness
+<<<<<<< HEAD
 // Feel free to use your own responsive widths and styles for the grid
 // These are mostly for example use only.
 // -------------------------------------------------------------------
@@ -227,3 +248,6 @@ a:active {
         width: $half;
     }
 }
+=======
+@import 'responsiveness';
+>>>>>>> refs/remotes/origin/pr/4

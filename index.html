@@ -3,7 +3,7 @@
 <head>
     <meta name="viewport" content="width=device-width, minimal-ui">
     <meta charset="UTF-8">
-    <title>Roksana v1.0.3 - Demo</title>
+    <title>Roksana v1.0.4 - Demo</title>
     <style>
         .box {
             background: #c8bdff;
@@ -15,365 +15,415 @@
         .box--new {
             background: #f1e2ff;
         }
+		
+        .box--textbox {
+            background: #f5f1f8;
+        }		
     </style>
     <link rel="stylesheet" href="css/roxana.min.css">
 </head>
 <body>
 
 <div class="container-80 ltr">
-   <div class="row">
  
  
-	  <h3>first button in Roxana</h3>   <br>
-     <a class="btn btn-blue btn-small" href="#" >Button</a>
-	 <br>
-	 <br>
-   </div>
-  
+<h3>Textbox in Roxana</h3>    
+ <div class="row ">
+ 
+ 		<div class="rox-col-3 box--textbox">
+        
+			<div class="rox-txt ltr">
+				<input type="text" placeholder="Name">
+			</div>
+		  
+			<div class="rox-txt ltr">
+				<input type="text" placeholder="Last name">
+			</div>
 
+        </div>
+		
+		<div class="rox-col-3 box--textbox">
+        
+			<div class="rox-txt ltr">
+				<input type="text" placeholder="Mobile">
+			</div>
+		  
+			<div class="rox-txt ltr">
+				<input type="text" placeholder="Phone">
+			</div>
+
+        </div>
+		
+		<div class="rox-col-3 box--textbox">
+        
+			<div class="rox-txt ltr">
+				<input type="text" placeholder="Address">
+			</div>
+		  
+			<div class="rox-col-2 box--textbox">
+			
+				<div class="rox-txt ltr">
+					<input type="text" placeholder="Code 1">
+				</div>
+
+			</div>
+			<div class="rox-col-2 box--textbox">
+			
+				<div class="rox-txt ltr">
+					<input type="text" placeholder="Code 2">
+				</div>
+			</div>
+        </div>
+		
+		  
+   	    <div class="rox-txt rtl box--textbox"> <h3>RTL Textbox</h3>
+            <input type="text" placeholder="RTL Textbox in Roxana">
+        </div>
+</div>
+ 
   <hr>
   <h3>Grid system in roxana</h3>
   <div class="row">
         <!-- New Widths -->
         <!-- 75 column -->
-        <div class="rox-75">
-            <div class="box box--new">.rox-75</div>
+        <div class="rox-col-75">
+            <div class="box box--new">.rox-col-75</div>
         </div>
 
-        <div class="rox-25">
-            <div class="box box--new">.rox-25</div>
+        <div class="rox-col-25">
+            <div class="box box--new">.rox-col-25</div>
         </div>
 
-        <div class="rox-60">
-            <div class="box box--new">.rox-60</div>
+        <div class="rox-col-60">
+            <div class="box box--new">.rox-col-60</div>
         </div>
 
-        <div class="rox-40">
-            <div class="box box--new">.rox-40</div>
+        <div class="rox-col-40">
+            <div class="box box--new">.rox-col-40</div>
         </div>
 
         <!-- 1 column -->
-        <div class="rox-1">
-            <div class="box">.rox-1</div>
+        <div class="rox-col-1">
+            <div class="box">.rox-col-1</div>
         </div>
 
         <!-- 2 columns -->
-        <div class="rox-2">
-            <div class="box">.rox-2</div>
+        <div class="rox-col-2">
+            <div class="box">.rox-col-2</div>
         </div>
 
-        <div class="rox-2">
-            <div class="box">.rox-2</div>
+        <div class="rox-col-2">
+            <div class="box">.rox-col-2</div>
         </div>
 
         <!-- 3 columns -->
-        <div class="rox-3">
-            <div class="box">.rox-3</div>
+        <div class="rox-col-3">
+            <div class="box">.rox-col-3</div>
         </div>
 
-        <div class="rox-3">
-            <div class="box">.rox-3</div>
+        <div class="rox-col-3">
+            <div class="box">.rox-col-3</div>
         </div>
 
-        <div class="rox-3">
-            <div class="box">.rox-3</div>
+        <div class="rox-col-3">
+            <div class="box">.rox-col-3</div>
         </div>
 
         <!-- 4 columns -->
-        <div class="rox-4">
-            <div class="box">.rox-4</div>
+        <div class="rox-col-4">
+            <div class="box">.rox-col-4</div>
         </div>
 
-        <div class="rox-4">
-            <div class="box">.rox-4</div>
+        <div class="rox-col-4">
+            <div class="box">.rox-col-4</div>
         </div>
 
-        <div class="rox-4">
-            <div class="box">.rox-4</div>
+        <div class="rox-col-4">
+            <div class="box">.rox-col-4</div>
         </div>
 
-        <div class="rox-4">
-            <div class="box">.rox-4</div>
+        <div class="rox-col-4">
+            <div class="box">.rox-col-4</div>
         </div>
 
         <!-- 5 columns -->
-        <div class="rox-5">
-            <div class="box">.rox-5</div>
+        <div class="rox-col-5">
+            <div class="box">.rox-col-5</div>
         </div>
 
-        <div class="rox-5">
-            <div class="box">.rox-5</div>
+        <div class="rox-col-5">
+            <div class="box">.rox-col-5</div>
         </div>
 
-        <div class="rox-5">
-            <div class="box">.rox-5</div>
+        <div class="rox-col-5">
+            <div class="box">.rox-col-5</div>
         </div>
 
-        <div class="rox-5">
-            <div class="box">.rox-5</div>
+        <div class="rox-col-5">
+            <div class="box">.rox-col-5</div>
         </div>
 
-        <div class="rox-5">
-            <div class="box">.rox-5</div>
+        <div class="rox-col-5">
+            <div class="box">.rox-col-5</div>
         </div>
 
         <!-- 6 columns -->
-        <div class="rox-6">
-            <div class="box">.rox-6</div>
+        <div class="rox-col-6">
+            <div class="box">.rox-col-6</div>
         </div>
 
-        <div class="rox-6">
-            <div class="box">.rox-6</div>
+        <div class="rox-col-6">
+            <div class="box">.rox-col-6</div>
         </div>
 
-        <div class="rox-6">
-            <div class="box">.rox-6</div>
+        <div class="rox-col-6">
+            <div class="box">.rox-col-6</div>
         </div>
 
-        <div class="rox-6">
-            <div class="box">.rox-6</div>
+        <div class="rox-col-6">
+            <div class="box">.rox-col-6</div>
         </div>
 
-        <div class="rox-6">
-            <div class="box">.rox-6</div>
+        <div class="rox-col-6">
+            <div class="box">.rox-col-6</div>
         </div>
 
-        <div class="rox-6">
-            <div class="box">.rox-6</div>
+        <div class="rox-col-6">
+            <div class="box">.rox-col-6</div>
         </div>
 
         <!-- 7 columns -->
-        <div class="rox-7">
-            <div class="box">.rox-7</div>
+        <div class="rox-col-7">
+            <div class="box">.rox-col-7</div>
         </div>
 
-        <div class="rox-7">
-            <div class="box">.rox-7</div>
+        <div class="rox-col-7">
+            <div class="box">.rox-col-7</div>
         </div>
 
-        <div class="rox-7">
-            <div class="box">.rox-7</div>
+        <div class="rox-col-7">
+            <div class="box">.rox-col-7</div>
         </div>
 
-        <div class="rox-7">
-            <div class="box">.rox-7</div>
+        <div class="rox-col-7">
+            <div class="box">.rox-col-7</div>
         </div>
 
-        <div class="rox-7">
-            <div class="box">.rox-7</div>
+        <div class="rox-col-7">
+            <div class="box">.rox-col-7</div>
         </div>
 
-        <div class="rox-7">
-            <div class="box">.rox-7</div>
+        <div class="rox-col-7">
+            <div class="box">.rox-col-7</div>
         </div>
 
-        <div class="rox-7">
-            <div class="box">.rox-7</div>
+        <div class="rox-col-7">
+            <div class="box">.rox-col-7</div>
         </div>
 
         <!-- 8 columns -->
-        <div class="rox-8">
-            <div class="box">.rox-8</div>
+        <div class="rox-col-8">
+            <div class="box">.rox-col-8</div>
         </div>
 
-        <div class="rox-8">
-            <div class="box">.rox-8</div>
+        <div class="rox-col-8">
+            <div class="box">.rox-col-8</div>
         </div>
 
-        <div class="rox-8">
-            <div class="box">.rox-8</div>
+        <div class="rox-col-8">
+            <div class="box">.rox-col-8</div>
         </div>
 
-        <div class="rox-8">
-            <div class="box">.rox-8</div>
+        <div class="rox-col-8">
+            <div class="box">.rox-col-8</div>
         </div>
 
-        <div class="rox-8">
-            <div class="box">.rox-8</div>
+        <div class="rox-col-8">
+            <div class="box">.rox-col-8</div>
         </div>
 
-        <div class="rox-8">
-            <div class="box">.rox-8</div>
+        <div class="rox-col-8">
+            <div class="box">.rox-col-8</div>
         </div>
 
-        <div class="rox-8">
-            <div class="box">.rox-8</div>
+        <div class="rox-col-8">
+            <div class="box">.rox-col-8</div>
         </div>
 
-        <div class="rox-8">
-            <div class="box">.rox-8</div>
+        <div class="rox-col-8">
+            <div class="box">.rox-col-8</div>
         </div>
 
         <!-- 9 columns -->
-        <div class="rox-9">
-            <div class="box">.rox-9</div>
+        <div class="rox-col-9">
+            <div class="box">.rox-col-9</div>
         </div>
 
-        <div class="rox-9">
-            <div class="box">.rox-9</div>
+        <div class="rox-col-9">
+            <div class="box">.rox-col-9</div>
         </div>
 
-        <div class="rox-9">
-            <div class="box">.rox-9</div>
+        <div class="rox-col-9">
+            <div class="box">.rox-col-9</div>
         </div>
 
-        <div class="rox-9">
-            <div class="box">.rox-9</div>
+        <div class="rox-col-9">
+            <div class="box">.rox-col-9</div>
         </div>
 
-        <div class="rox-9">
-            <div class="box">.rox-9</div>
+        <div class="rox-col-9">
+            <div class="box">.rox-col-9</div>
         </div>
 
-        <div class="rox-9">
-            <div class="box">.rox-9</div>
+        <div class="rox-col-9">
+            <div class="box">.rox-col-9</div>
         </div>
 
-        <div class="rox-9">
-            <div class="box">.rox-9</div>
+        <div class="rox-col-9">
+            <div class="box">.rox-col-9</div>
         </div>
 
-        <div class="rox-9">
-            <div class="box">.rox-9</div>
+        <div class="rox-col-9">
+            <div class="box">.rox-col-9</div>
         </div>
 
-        <div class="rox-9">
-            <div class="box">.rox-9</div>
+        <div class="rox-col-9">
+            <div class="box">.rox-col-9</div>
         </div>
 
         <!-- 10 columns -->
-        <div class="rox-10">
-            <div class="box">.rox-10</div>
+        <div class="rox-col-10">
+            <div class="box">.rox-col-10</div>
         </div>
 
-        <div class="rox-10">
-            <div class="box">.rox-10</div>
+        <div class="rox-col-10">
+            <div class="box">.rox-col-10</div>
         </div>
 
-        <div class="rox-10">
-            <div class="box">.rox-10</div>
+        <div class="rox-col-10">
+            <div class="box">.rox-col-10</div>
         </div>
 
-        <div class="rox-10">
-            <div class="box">.rox-10</div>
+        <div class="rox-col-10">
+            <div class="box">.rox-col-10</div>
         </div>
 
-        <div class="rox-10">
-            <div class="box">.rox-10</div>
+        <div class="rox-col-10">
+            <div class="box">.rox-col-10</div>
         </div>
 
-        <div class="rox-10">
-            <div class="box">.rox-10</div>
+        <div class="rox-col-10">
+            <div class="box">.rox-col-10</div>
         </div>
 
-        <div class="rox-10">
-            <div class="box">.rox-10</div>
+        <div class="rox-col-10">
+            <div class="box">.rox-col-10</div>
         </div>
 
-        <div class="rox-10">
-            <div class="box">.rox-10</div>
+        <div class="rox-col-10">
+            <div class="box">.rox-col-10</div>
         </div>
 
-        <div class="rox-10">
-            <div class="box">.rox-10</div>
+        <div class="rox-col-10">
+            <div class="box">.rox-col-10</div>
         </div>
 
-        <div class="rox-10">
-            <div class="box">.rox-10</div>
+        <div class="rox-col-10">
+            <div class="box">.rox-col-10</div>
         </div>
 
         <!-- 11 columns -->
-        <div class="rox-11">
-            <div class="box">.rox-11</div>
+        <div class="rox-col-11">
+            <div class="box">.rox-col-11</div>
         </div>
 
-        <div class="rox-11">
-            <div class="box">.rox-11</div>
+        <div class="rox-col-11">
+            <div class="box">.rox-col-11</div>
         </div>
 
-        <div class="rox-11">
-            <div class="box">.rox-11</div>
+        <div class="rox-col-11">
+            <div class="box">.rox-col-11</div>
         </div>
 
-        <div class="rox-11">
-            <div class="box">.rox-11</div>
+        <div class="rox-col-11">
+            <div class="box">.rox-col-11</div>
         </div>
 
-        <div class="rox-11">
-            <div class="box">.rox-11</div>
+        <div class="rox-col-11">
+            <div class="box">.rox-col-11</div>
         </div>
 
-        <div class="rox-11">
-            <div class="box">.rox-11</div>
+        <div class="rox-col-11">
+            <div class="box">.rox-col-11</div>
         </div>
 
-        <div class="rox-11">
-            <div class="box">.rox-11</div>
+        <div class="rox-col-11">
+            <div class="box">.rox-col-11</div>
         </div>
 
-        <div class="rox-11">
-            <div class="box">.rox-11</div>
+        <div class="rox-col-11">
+            <div class="box">.rox-col-11</div>
         </div>
 
-        <div class="rox-11">
-            <div class="box">.rox-11</div>
+        <div class="rox-col-11">
+            <div class="box">.rox-col-11</div>
         </div>
 
-        <div class="rox-11">
-            <div class="box">.rox-11</div>
+        <div class="rox-col-11">
+            <div class="box">.rox-col-11</div>
         </div>
 
-        <div class="rox-11">
-            <div class="box">.rox-11</div>
+        <div class="rox-col-11">
+            <div class="box">.rox-col-11</div>
         </div>
 
         <!-- 12 columns -->
-        <div class="rox-12">
-            <div class="box">.rox-12</div>
+        <div class="rox-col-12">
+            <div class="box">.rox-col-12</div>
         </div>
 
-        <div class="rox-12">
-            <div class="box">.rox-12</div>
+        <div class="rox-col-12">
+            <div class="box">.rox-col-12</div>
         </div>
 
-        <div class="rox-12">
-            <div class="box">.rox-12</div>
+        <div class="rox-col-12">
+            <div class="box">.rox-col-12</div>
         </div>
 
-        <div class="rox-12">
-            <div class="box">.rox-12</div>
+        <div class="rox-col-12">
+            <div class="box">.rox-col-12</div>
         </div>
 
-        <div class="rox-12">
-            <div class="box">.rox-12</div>
+        <div class="rox-col-12">
+            <div class="box">.rox-col-12</div>
         </div>
 
-        <div class="rox-12">
-            <div class="box">.rox-12</div>
+        <div class="rox-col-12">
+            <div class="box">.rox-col-12</div>
         </div>
 
-        <div class="rox-12">
-            <div class="box">.rox-12</div>
+        <div class="rox-col-12">
+            <div class="box">.rox-col-12</div>
         </div>
 
-        <div class="rox-12">
-            <div class="box">.rox-12</div>
+        <div class="rox-col-12">
+            <div class="box">.rox-col-12</div>
         </div>
 
-        <div class="rox-12">
-            <div class="box">.rox-12</div>
+        <div class="rox-col-12">
+            <div class="box">.rox-col-12</div>
         </div>
 
-        <div class="rox-12">
-            <div class="box">.rox-12</div>
+        <div class="rox-col-12">
+            <div class="box">.rox-col-12</div>
         </div>
 
-        <div class="rox-12">
-            <div class="box">.rox-12</div>
+        <div class="rox-col-12">
+            <div class="box">.rox-col-12</div>
         </div>
 
-        <div class="rox-12">
-            <div class="box">.rox-12</div>
+        <div class="rox-col-12">
+            <div class="box">.rox-col-12</div>
         </div>
     </div>
 </div>

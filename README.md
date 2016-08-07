@@ -1,4 +1,4 @@
-# Roxana version 1.0.4
+# Roxana version 1.0.5
 
 it build with SCSS for more customize a use GULP for compile and minify
 [Read more about Roxana css framwork](https://roxana-css.github.io/framework/)

@@ -1,7 +1,7 @@
 # Roxana version 1.0.4
 
 it build with SCSS for more customize a use GULP for compile and minify
-[Read more about Roxana css framwork](http://vahidalvandi.github.io/roxana/)
+[Read more about Roxana css framwork](https://roxana-css.github.io/framework/)
  
 you can use free and simple Roxana CSS framwork . this build for Grid system and same elements in Material Design mode.
 it Support LTR and RTL languages for persian , arabic , ...

@@ -1,0 +1,14 @@
+        .box {
+            background: #c8bdff;
+            font-size: 14px;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .box--new {
+            background: #f1e2ff;
+        }
+		
+        .box--textbox {
+            background: #f5f1f8;
+        }

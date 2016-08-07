@@ -7,7 +7,7 @@
 // Mobile
 @media (max-width: $small) {
     @for $i from $start through $end {
-        .rox-#{$i} {
+        .rox-col-#{$i} {
             width: $full
         }
     }
@@ -15,38 +15,38 @@
 
 // Portrait Tablet
 @media (min-width: $small) and (max-width: $medium) {
-    .rox-4,
-    .rox-5,
-    .rox-6,
-    .rox-8,
-    .rox-10,
-    .rox-12 {
+    .rox-col-4,
+    .rox-col-5,
+    .rox-col-6,
+    .rox-col-8,
+    .rox-col-10,
+    .rox-col-12 {
         width: $half;
     }
 
-    .rox-1,
-    .rox-2,
-    .rox-3,
-    .rox-5,
-    .rox-7,
-    .rox-9,
-    .rox-11 {
+    .rox-col-1,
+    .rox-col-2,
+    .rox-col-3,
+    .rox-col-5,
+    .rox-col-7,
+    .rox-col-9,
+    .rox-col-11 {
         width: $full;
     }
 }
 
 // Landscape Tablet
 @media (min-width: $medium) and (max-width: $large) {
-    .rox-2,
-    .rox-7 {
+    .rox-col-2,
+    .rox-col-7 {
         width: $full;
     }
 
-    .rox-4,
-    .rox-5,
-    .rox-8,
-    .rox-10,
-    .rox-12 {
+    .rox-col-4,
+    .rox-col-5,
+    .rox-col-8,
+    .rox-col-10,
+    .rox-col-12 {
         width: $half;
     }
 }

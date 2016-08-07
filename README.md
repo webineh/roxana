@@ -1,4 +1,4 @@
-# Roxana version 1.0.3
+# Roxana version 1.0.4
 
 it build with SCSS for more customize a use GULP for compile and minify
 [Read more about Roxana css framwork](http://vahidalvandi.github.io/roxana/)
@@ -12,4 +12,5 @@ it Support LTR and RTL languages for persian , arabic , ...
 - support 5 type container by present 100(full weight) ,90,80,70,60
 - custom button style and multiply color
 - have same helpers like float-right,float-left , ...
+- Textbox with effect Glow in hover
 - and more feature Soon ...

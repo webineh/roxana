@@ -8,7 +8,7 @@
   direction: rtl;
 }
 
-.rtl [class*='rox-'] {
+.rtl [class*='rox-col-'] {
   float: right;
 }
 
@@ -16,8 +16,12 @@
   direction: ltr;
 }
 
-.ltr [class*='rox-'] {
+.ltr [class*='rox-col-'] {
   float: left;
+}
+
+[class*='rox'] {
+  padding: 0.3em;
 }
 
 .row {
@@ -86,6 +90,8 @@
 }
 
 .btn {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 0 0;
+  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 0 0;
   box-shadow: rgba(0, 0, 0, 0.2) 0 1px 0 0;
   color: #fff;
   margin-top: 5px;
@@ -111,71 +117,104 @@
   background-color: #8cc015;
 }
 
-[class*='rox-'] {
-  padding: 0.3em;
+input[type="text"] {
+  display: block;
+  margin: 0;
+  width: 100%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  -webkit-border-radius: none;
+  -moz-border-radius: none;
+  -ms-border-radius: none;
+  -o-border-radius: none;
+  border-radius: none;
 }
 
-.rox-1 {
+input[type="text"]:focus {
+  outline: none;
+}
+
+.rox-txt input[type="text"] {
+  padding: 10px;
+  border: solid 1px gainsboro;
+  -webkit-transition: box-shadow 0.3s, border 0.3s;
+  -moz-transition: box-shadow 0.3s, border 0.3s;
+  -o-transition: box-shadow 0.3s, border 0.3s;
+  transition: box-shadow 0.3s, border 0.3s;
+}
+
+.rox-txt input[type="text"]:focus, .rox--txt input[type="text"].focus {
+  border: solid 1px #707070;
+  -webkit-box-shadow: 0 0 5px 1px #969696;
+  -moz-box-shadow: 0 0 5px 1px #969696;
+  box-shadow: 0 0 5px 1px #969696;
+}
+
+.rox-col-1 {
   width: 100%;
 }
 
-.rox-2 {
+.rox-col-2 {
   width: 50%;
 }
 
-.rox-3 {
+.rox-col-3 {
   width: 33.33333%;
 }
 
-.rox-4 {
+.rox-col-4 {
   width: 25%;
 }
 
-.rox-5 {
+.rox-col-5 {
   width: 20%;
 }
 
-.rox-6 {
+.rox-col-6 {
   width: 16.66667%;
 }
 
-.rox-7 {
+.rox-col-7 {
   width: 14.28571%;
 }
 
-.rox-8 {
+.rox-col-8 {
   width: 12.5%;
 }
 
-.rox-9 {
+.rox-col-9 {
   width: 11.11111%;
 }
 
-.rox-10 {
+.rox-col-10 {
   width: 10%;
 }
 
-.rox-11 {
+.rox-col-11 {
   width: 9.09091%;
 }
 
-.rox-12 {
+.rox-col-12 {
   width: 8.33333%;
 }
 
-.rox-25 {
+.rox-col-25 {
   width: 25%;
 }
 
-.rox-40 {
+.rox-col-40 {
   width: 40%;
 }
 
-.rox-60 {
+.rox-col-60 {
   width: 60%;
 }
 
-.rox-75 {
+.rox-col-75 {
   width: 75%;
 }
 

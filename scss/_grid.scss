@@ -2,15 +2,10 @@
 // Grid
 // --------------------------------------------------
 
-// Attribute selector
-// Also I've removed :last-of-type
-[class*='rox-'] {
-    padding: $rox-padding;
-}
 
 // Create grid widths (1-12)
 @for $i from $start through $end {
-    .rox-#{$i} {
+    .rox-col-#{$i} {
         width: $full / $i;
     }
 }
@@ -19,7 +14,7 @@
 // Please use the media queries below to respond these widths
 // Feel free to pull request new widths
 @each $i in $common {
-    .rox-#{$i} {
+    .rox-col-#{$i} {
         width: percentage($i / 100);
     }
 }

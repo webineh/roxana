@@ -8,19 +8,25 @@
     padding: 0;
     box-sizing: border-box;
 }
- 
+
 .rtl{
 	direction:rtl;
-		[class*='rox-'] {
-		 float: right;
+		[class*='rox-col-'] {
+		float: right;
 	}
 }
+
 .ltr{
 	direction:ltr;
-	[class*='rox-'] {
+	[class*='rox-col-'] {
 		 float: left;
 	}
 }
+ 
+[class*='rox'] {
+    padding: $rox-padding;
+}
+
 // clearfix
 .row {
     margin: 0 auto;

@@ -10,7 +10,7 @@ var minifyCSS    = require('gulp-minify-css');
 gulp.task('sass', function () {
     gulp.src('scss/**/*.scss')
         .pipe(sass({outputStyle: 'expanded', includePaths: ['scss']}))
-        .pipe(prefix("last 2 versions", "> 1%", "ie 8", "Android 2", "Firefox ESR"))
+        //.pipe(prefix({browsers: ['last 2 versions'],cascade: true}))
         .pipe(gulp.dest('css'))
 	.pipe(minifyCSS())
 	.pipe(rename({

@@ -1,0 +1,6 @@
+{
+  "name": "Roxana",
+  "tagline": "Lightweight CSS Framwork",
+  "body": " Roxana version 1.0.3\r\n\r\nit build with SCSS for more customize a use GULP for compile and minify Read more about Roxana css framwork\r\n\r\nyou can use free and simple Roxana CSS framwork . this build for Grid system and same elements in Material Design mode. it Support LTR and RTL languages for persian , arabic , ...\r\n\r\nFeatures\r\n\r\n- simple and lightweight\r\n- support 12 column responsive\r\n- switch Ltr to Rtl by add ltr or rtl in each div\r\n- support 5 type container by present 100(full weight) ,90,80,70,60\r\n- custom button style and multiply color\r\n- have same helpers like float-right,float-left , ...\r\n- and more feature Soon ...",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
